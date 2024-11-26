@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link as ScrollLink, scroller } from "react-scroll";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
@@ -7,12 +7,18 @@ function Header() {
   const location = useLocation();
   const navigate = useNavigate();
 
+  const [showSearch, setShowSearch] = useState(false);
+
+  const toggleSearchBar = () => {
+    setShowSearch(!showSearch); // Toggle the visibility
+  };
+
   const handleShirtCatalogClick = () => {
     if (location.pathname === "/components/frontPage") {
       scroller.scrollTo("shirtCatalog", {
         smooth: true,
         duration: 500,
-        offset: -50,
+        offset: 100,
       });
     } else {
       navigate("/components/frontPage");
@@ -20,9 +26,28 @@ function Header() {
         scroller.scrollTo("shirtCatalog", {
           smooth: true,
           duration: 500,
-          offset: -50,
+          offset: 100,
         });
       }, 500);
+    }
+  };
+
+  const handleShirtCatalogClick2 = () => {
+    if (location.pathname === "/components/frontPage") {
+      scroller.scrollTo("Footer", {
+        smooth: true,
+        duration: 500, // Animation duration in milliseconds
+        offset: 0, // Adjust as needed to account for any fixed headers
+      });
+    } else {
+      navigate("/components/frontPage");
+      setTimeout(() => {
+        scroller.scrollTo("Footer", {
+          smooth: true,
+          duration: 500,
+          offset: 0,
+        });
+      }, 500); // Delay to allow page navigation to complete
     }
   };
   
@@ -42,15 +67,31 @@ function Header() {
           <Link to="/components/shopPage" className="cursor-pointer font-bold text-[1.35rem] p-4 tracking-wider no-underline text-black hover:text-gray-600 hover:scale-105 sm:text-[1.15rem] md:text-[1.20rem] lg:text-[1.25rem] xl:text-[1.30rem] 2xl:text-[1.35rem]">
             SHOP
           </Link>
-          <a className="cursor-pointer font-bold text-[1.35rem] p-4 tracking-wider no-underline text-black hover:text-gray-600 hover:scale-105 sm:text-[1.15rem] md:text-[1.20rem] lg:text-[1.25rem] xl:text-[1.30rem] 2xl:text-[1.35rem]">
+          <button onClick={handleShirtCatalogClick2} className="cursor-pointer font-bold text-[1.35rem] p-4 tracking-wider no-underline text-black hover:text-gray-600 hover:scale-105 sm:text-[1.15rem] md:text-[1.20rem] lg:text-[1.25rem] xl:text-[1.30rem] 2xl:text-[1.35rem]">
             ABOUT
-          </a>
+          </button>
         </div>
 
         <div className="flex items-center space-x-4 z-50">
-          <span className="material-symbols-outlined text-[3rem] font-extrabold cursor-pointer hover:scale-105 sm:text-[2rem] md:text-[2rem] lg:text-[2.3rem] xl:text-[2.85rem] 2xl:text-[3rem] sm:p-1.2 md:p-1.4 lg:p-1.6 xl:p-1.8m xl:p-2">
+        <span onClick={toggleSearchBar} className="material-symbols-outlined text-[3rem] font-extrabold cursor-pointer hover:scale-105">
             search
-          </span>
+        </span>
+        <div className="relative">
+           
+            {showSearch && (
+              <div
+                className="absolute bg-white border border-gray-300 shadow-sm rounded-md p-1 w-[300px] z-50"
+                style={{ top: "50%", right: "4.5vw", transform: "translateY(-50%)" }}
+              >
+                <input
+                  type="text"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Search..."
+                />
+              </div>
+            )}
+          </div>
+
           <span className="material-symbols-outlined text-[3rem] font-extrabold cursor-pointer hover:scale-105 sm:text-[2rem] md:text-[2rem] lg:text-[2.3rem] xl:text-[2.85rem] 2xl:text-[3rem] sm:p-1.2 md:p-1.4 lg:p-1.6 xl:p-1.8m xl:p-2">
             shopping_bag
           </span>

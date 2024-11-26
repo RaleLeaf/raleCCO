@@ -20,7 +20,9 @@ function FrontPage() {
           <ShirtCatalog />
         </Element>
         <Design />
-        <Footer />
+        <Element name="Footer">
+          <Footer />
+        </Element>
       </div>
     );
   }
