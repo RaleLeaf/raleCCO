@@ -28,7 +28,7 @@ function shopPage2() {
 
                 <div className="relative w-2/3 mx-auto p-2 py-4 flex gap-10 justify-center">
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale1.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale1.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -38,7 +38,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale4.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale4.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -48,7 +48,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="strapped.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/strapped.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative italic bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -58,7 +58,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="superiority.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/superiority.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -71,7 +71,7 @@ function shopPage2() {
 
                 <div className="relative w-2/3 mx-auto p-2 flex gap-10 justify-center">
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="embrace1.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/embrace1.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -81,7 +81,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale3.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale3.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -91,7 +91,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale7.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale7.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -101,7 +101,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale6.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale6.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -114,7 +114,7 @@ function shopPage2() {
 
                 <div className="relative w-2/3 mx-auto p-2 flex gap-10 justify-center">
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="embrace1.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/embrace1.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -124,7 +124,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale3.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale3.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -134,7 +134,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale7.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale7.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -144,7 +144,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale6.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale6.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -158,7 +158,7 @@ function shopPage2() {
 
                 <div className="relative w-2/3 mx-auto p-2 flex gap-10 justify-center">
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="embrace1.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/embrace1.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -168,7 +168,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale3.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale3.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -178,7 +178,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale7.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale7.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -188,7 +188,7 @@ function shopPage2() {
                     </div>
 
                     <div className="relative w-[13vw] h-[16.5vw] items-center">
-                        <img src="rale6.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
+                        <img src="/rale6.png" alt="rale" className="absolute mx-auto z-1 w-full p-3"/>
                         <div className="relative bg-gray-100 w-[13vw] h-[13vw]"></div>
                         <div>
                             <div className="text-sm text-zinc-400 leading-tight">T-Shirt</div>
@@ -205,7 +205,7 @@ function shopPage2() {
             </div>
 
             <div className="w-2/3 mx-auto p-2flex gap-3 justify-center">
-                <img src="page2banner.png" alt="rale" className="w-[65vw]"/>
+                <img src="/page2banner.png" alt="rale" className="w-[65vw]"/>
             </div>
                     
         </div>
