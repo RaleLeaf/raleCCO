@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 
 function CheckoutPage() {
 
@@ -11,7 +12,9 @@ function CheckoutPage() {
     };
 
     return (
+        
         <div className="w-full h-screen">
+            <Header />
             <div className="relative bg-gray-200 p-5 w-full h-auto drop-shadow-xl">
                 <div
                     className="absolute font-bold drop-shadow-2xl font-archivo-black text-[11vw] tracking-tighter text-white"
@@ -40,7 +43,7 @@ function CheckoutPage() {
                     <div className="relative bg-gray-200 p-4 rounded-xl h-auto flex flex-row">
                         <div className="w-1/2 flex gap-3 flex-row">
                             <div className="relative w-[12vw]">
-                                <img src="rale1.png" alt="rale" className=" absolute p-3 rounded-3xl z-1 drop-shadow-lg" />
+                                <img src="/rale1.png" alt="rale" className=" absolute p-3 rounded-3xl z-1 drop-shadow-lg" />
                                 <div className=" bg-white w-[12vw] h-[12vw] rounded-xl"></div>
                             </div>
                             <div className="my-auto">
@@ -71,7 +74,7 @@ function CheckoutPage() {
                     <div className="relative bg-gray-200 p-4 rounded-xl h-auto flex flex-row">
                         <div className="w-1/2 flex gap-3 flex-row">
                             <div className="relative w-[12vw]">
-                                <img src="strapped.png" alt="rale" className=" absolute p-3 rounded-3xl z-1 drop-shadow-lg" />
+                                <img src="/strapped.png" alt="rale" className=" absolute p-3 rounded-3xl z-1 drop-shadow-lg" />
                                 <div className=" bg-white w-[12vw] h-[12vw] rounded-xl"></div>
                             </div>
                             <div className="my-auto">

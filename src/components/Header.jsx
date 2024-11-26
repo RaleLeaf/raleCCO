@@ -18,7 +18,7 @@ function Header() {
       scroller.scrollTo("shirtCatalog", {
         smooth: true,
         duration: 500,
-        offset: 100,
+        offset: -150,
       });
     } else {
       navigate("/components/frontPage");
@@ -26,7 +26,7 @@ function Header() {
         scroller.scrollTo("shirtCatalog", {
           smooth: true,
           duration: 500,
-          offset: 100,
+          offset: -150,
         });
       }, 500);
     }
@@ -92,9 +92,11 @@ function Header() {
             )}
           </div>
 
-          <span className="material-symbols-outlined text-[3rem] font-extrabold cursor-pointer hover:scale-105 sm:text-[2rem] md:text-[2rem] lg:text-[2.3rem] xl:text-[2.85rem] 2xl:text-[3rem] sm:p-1.2 md:p-1.4 lg:p-1.6 xl:p-1.8m xl:p-2">
-            shopping_bag
-          </span>
+          <Link to="/components/checkoutPage">
+            <span className="material-symbols-outlined text-[3rem] font-extrabold cursor-pointer hover:scale-105 sm:text-[2rem] md:text-[2rem] lg:text-[2.3rem] xl:text-[2.85rem] 2xl:text-[3rem] sm:p-1.2 md:p-1.4 lg:p-1.6 xl:p-1.8m xl:p-2">
+              shopping_bag
+            </span>
+          </Link>
           <span className="material-symbols-outlined text-[3rem] font-extrabold cursor-pointer hover:scale-105 sm:text-[2rem] md:text-[2rem] lg:text-[2.3rem] xl:text-[2.85rem] 2xl:text-[3rem] sm:p-1.2 md:p-1.4 lg:p-1.6 xl:p-1.8m xl:p-2 pr-0">
             more_vert
           </span>

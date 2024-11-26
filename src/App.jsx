@@ -28,6 +28,7 @@ function App() {
         <Route path="/components/shirtcatalog" element={<ShirtCatalog />} />
         <Route path="/components/shopPage" element={<ShopPage />} />
         <Route path="/components/frontPage" element={<FrontPage />} />
+        <Route path="/components/checkoutPage" element={<CheckoutPage />} />
       </Routes>
     </Router>
   );
