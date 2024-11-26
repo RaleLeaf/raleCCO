@@ -12,9 +12,9 @@ function CheckoutPage() {
 
     return (
         <div className="w-full h-screen">
-            <div className="relative bg-gray-200 p-5 w-full h-auto">
+            <div className="relative bg-gray-200 p-5 w-full h-auto drop-shadow-xl">
                 <div
-                    className="absolute font-bold font-archivo-black text-[11vw] tracking-tighter text-white"
+                    className="absolute font-bold drop-shadow-2xl font-archivo-black text-[11vw] tracking-tighter text-white"
                     style={{
                         top: "15%",
                         left: "49%",
@@ -98,8 +98,6 @@ function CheckoutPage() {
                             <div className="my-auto text-xl text-gray-500 italic">₱499.00</div>
                         </div>
                     </div>
-
-
                 </div>
 
                 <div className="bg-white z-10 flex p-4 mx-[10%] gap-4 flex-row justify-between rounded-2xl relative top-[15vh]">

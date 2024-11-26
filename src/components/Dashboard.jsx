@@ -11,6 +11,9 @@ import ShopPage2 from "./shopPage2";
 import ProductPage from "./productPage";
 import CheckoutPage from "./checkoutPage";
 import AccountPage from "./accountPage";
+import LoginPage from "./loginPage";
+import RegisterPage from "./registerPage";
+
 
 function Dashboard(){
     return(
@@ -24,10 +27,13 @@ function Dashboard(){
 
         {/* <ProductPage /> */}
 
-        <AccountPage />
+        {/* <AccountPage /> */}
         
         {/* <CheckoutPage /> */}
 
+        {/* <LoginPage /> */}
+
+        <RegisterPage />
 
 {/* 
         <FirstPage />
