@@ -9,6 +9,8 @@ import Design from "./design";
 import ShopPageTop from "./shopPagetop";
 import ShopPage2 from "./shopPage2";
 import ProductPage from "./productPage";
+import CheckoutPage from "./checkoutPage";
+import AccountPage from "./accountPage";
 
 function Dashboard(){
     return(
@@ -20,8 +22,11 @@ function Dashboard(){
         <ShopPage2 /> */}
 
 
-        <ProductPage />
+        {/* <ProductPage /> */}
 
+        <AccountPage />
+        
+        {/* <CheckoutPage /> */}
 
 
 {/* 
